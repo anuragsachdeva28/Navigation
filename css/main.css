@@ -4,10 +4,21 @@ body{
 	transition:all 0.2s ease-in-out;
 
 }
+hr.hra{
+	color: grey;
+	border: 0.25;
+}
+
+hr {
+height: 1px;
+color: #e5e8ea;
+background-color: #e5e8ea;
+border: none;
+}
 
 .left-nav-inner ul li .active{
 	background: #c40b0b;
-	color: #fff;
+	color: black;
 }
 
 .left-nav{
@@ -41,6 +52,7 @@ body{
 	top:115;
 	width: 100%;
 	height:calc(100vh - 145px);
+	background: white;
 	/*height:100%;*/
 	padding:0px;
 	/*border: 1px solid red;*/
@@ -52,8 +64,8 @@ body{
 	margin:0px;
 	display: block;
 	width: 100%;
-	color: #fff;
-	font-size: 0.9em;
+	color: black;
+	font-size: 1em;
 	padding: 0px ;
 	background-color: rgba(0,0,0,0);
 	transition:all 0.2s ease;
@@ -134,11 +146,11 @@ header,.sub-header{
 	padding: 12px 20px 5px 20px;
 }
 .left-nav-inner ul  .active{
-	background: #c40b0b;
-	color: #fff;
+	background: white;
+	color: red;
 }
 .left-nav-inner ul li .number{
-	background: #180f36;
+	background: red;
 	color:#fff;
 }
 .left-nav-inner ul li .active_number{
